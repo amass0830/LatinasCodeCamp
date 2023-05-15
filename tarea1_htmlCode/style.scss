@@ -1,0 +1,211 @@
+/* 
+************************************** BASE WITH COMMON STYLES *****************************
+*/
+
+:root{
+    --primary-color:#000000;
+}
+
+a:link {
+    color: #9d01b8;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #8f0101;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+body {
+    font-size: 1.125em;
+    background-color: #c3c3c3;
+    color: var(--primary-color);
+    box-sizing: border-box;
+}
+
+.title3 {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 3rem;
+    -webkit-text-stroke: 1.5px hsl(0, 2%, 10%);
+    color: hsl(0, 3%, 11%);
+    text-align: center;
+}
+.title3_1 {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 3rem;
+    -webkit-text-stroke: 1.5px hsl(0, 2%, 40%);
+    color: hsl(0, 2%, 63%);
+    text-align: center;
+}
+
+/* 
+************************************** MAIN-PAGE CONTAINER *****************************
+*/
+
+.band_main-page{
+    background-color: #8f8c8c;
+    margin: auto;
+    width: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+    margin-bottom: 20px;
+}
+
+.main-page{
+    max-width: 800px;
+    margin: auto;
+}
+
+.personal_eleccion_deftones{
+    background-color: #2a2a2a;
+    margin: auto;
+    width: auto;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+}
+.main-personal-space-opinion{
+    max-width: 800px;
+    margin: auto;
+    color: #cdcaca;
+    margin-top: 15px;
+}
+
+.main-personal-space-opinion h1{
+    text-align: center;
+    justify-content: center;
+}
+
+/* 
+************************************** MAIN-PAGE ELEMENTS *****************************
+*/
+.logo_deftones{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.logo_deftones img{
+    width: 800px;
+}
+.main-page_historia{
+    text-align: justify;
+}
+.main-page_historia cite{
+    font-weight: 900;
+}
+.main-page_imgDeftones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.main-page_imgDeftones img{
+    width: 600px;
+    height: 450px;
+}
+
+.main-page_discografia_e_integrantes {
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+  
+    .discografia {
+      width: 400px;
+      
+      table {
+        width: 100%;
+  
+        th, td {
+          padding: 10px;
+          text-align: left;
+        }
+  
+        th {
+          background-color: #cdcaca;
+        }
+  
+        tbody tr:nth-child(even) {
+          background-color: #cdcaca;;
+        }
+      }
+    }
+    .integrantes {
+        width: 400px;
+        text-align: justify;
+    }
+}
+
+.main-page_medios_audiovisuales{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+iframe{ 
+    width: 440px;
+    height: 360px;
+    border-radius: 12px;
+    margin-bottom: 5px;
+}
+
+/* 
+************************************** SECTION 2: PERSONAL OPINION *****************************
+*/
+
+.personal_eleccion_deftones{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+/* 
+************************************** RESPONSIVENESS *****************************
+*/
+
+@media screen and (max-width: 700px) {
+    .logo_deftones{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .logo_deftones img{
+        width: 300px;
+    }
+
+    .main-page_historia{
+        width: auto;
+    }
+
+    .main-page_imgDeftones{
+        width: auto;
+    }
+
+    .main-page_imgDeftones img{
+        width: 300px;
+        height: 220px;
+        border:#ffffff solid 5px;
+    }
+
+    .main-page_discografia_e_integrantes{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+        .integrantes{
+            width: 100%;
+        }
+    }
+    .main-page_medios_audiovisuales {
+        flex-direction: column;
+      }
+    .embeded_deftones_youtube_video,
+    .embeded_spotify_deftones_channel {
+      width: auto;
+      max-width: 50%;
+    }
+
+}
