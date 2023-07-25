@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Michi List</title>
+</head>
+<body>
+    <section class="cat_list">
+        <div class="cat_space">
+            <div class="cat_space-title">
+                <h1>Lists of Funny Cat Names</h1>
+                <p> This is a list that reveals the funniest side of having a cat.</p>
+            </div>
+
+            <form class="add-cat-name">
+                <input type="text" id="catNameInput" placeholder="Enter cat name">
+                <button type="button" onclick="addCatName()" >Add Cat Name</button>
+            </form>
+            <div class="catList">
+                <h2>List of funny cat names:</h2>
+                <ul id="catNameList"></ul>
+            </div>
+        </div>
+    </section>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

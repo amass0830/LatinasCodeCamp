@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+  
+.cat_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+  
+.cat_space {
+    width: 80%;
+    max-width: 500px;
+    background-color: #e5c9e7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border: #a246ac solid;
+}
+  
+.cat_space-title  {
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.cat_space-title h1 {
+    color:#b757c2;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.cat_space-title p {
+    color:#65246c;
+    font-style: italic;
+}
+
+.add-cat-name {
+    display: flex;
+    align-items: center;
+}
+  
+  .add-cat-name input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .add-cat-name button {
+    background-color: #b757c2;
+    color: #fff;
+    font-weight: 300;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .catList {
+    margin-top: 20px;
+  }
+  
+  .catList h2 {
+    margin-bottom: 10px;
+  }
+  
+  .catList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .catList li {
+    margin-bottom: 5px;
+  }
+  
