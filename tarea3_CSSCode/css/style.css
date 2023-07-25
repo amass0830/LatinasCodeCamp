@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+/* 
+********************** BASIC LAYOUT STYLING ******************
+*/
+
+html {
+    background: #aaaaaa;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125em;
+}
+
+.title1{
+    color: #1d9d9e;
+}
+
+.title2_grn{
+    color: #bedd42;
+}
+
+.title2_wht{
+    color: #ffffff;
+    margin: 5px;
+}
+
+.title4{
+    color: #b0b5c1;
+}
+
+.btn-grn {
+    background-color: #bedd42;
+    border-radius: 5px;
+    height: 3em;
+    width: 15em;
+    border: none;
+    color: #ffffff;
+    font-weight: 300;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-column: span 2; 
+}
+
+
+/* 
+********************** COMPONENT MENU STYLING ******************
+*/
+
+.main_component{
+    margin: auto;
+    padding: auto;
+    height: 800px;
+    width: 800px;
+
+}
+
+/* 
+********************** COMPONENT MENU STYLING: WHITE SIDE  ******************
+*/
+
+.grid_main_menu-component-white{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.component_white{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.component_white-space{
+    margin: 2.5em;
+}
+
+/* 
+********************** COMPONENT MENU STYLING: GREEN SIDE  ******************
+*/
+
+.grid_main_menu-component-greens{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/* 
+********************** COMPONENT MENU STYLING: GREEN SIDE LEFT ******************
+*/
+
+.component_greenDarker{
+    background-color: #02a29f;
+    border-radius: 10px;
+}
+
+.component_greens-space{
+    margin: 2.5em;
+}
+
+.component_greenDarker-price{
+    display: grid;
+    background-color: transparent;
+    grid-template-columns: 30% 30%;
+    gap: -2px;
+}
+
+.component_greenDarker-price h1,
+.component_greenDarker-price h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.component_greenDarker h1{
+    color: #ffffff;
+    font-size: 2em;
+}
+
+.component_greenDarker h4{
+    color: #ffffff;
+    font: 0.2em;
+}
+
+.component_greenDarker h6{
+    color: #48cecf;
+    
+}
+
+
+/* 
+********************** COMPONENT MENU STYLING: GREEN SIDE RIGHT ******************
+*/
+
+.component_greenlighter{
+    background-color:  #23bebd;
+    color: #75ddde;
+    font-size: 0.89em;
+    border-radius: 10px;
+}
+
+.component_greenlighter h3{
+    margin: 5px;
+    margin-left: 2em;
+}
+
+.component_greenlighter-list{
+    background-color: transparent;
+    list-style-type: none; 
+}
+
+.attribution{
+    border-radius: 5px;
+    background-color: #ffb3f2;
+    width: 800;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: grid;
+    grid-template-rows: 100%;
+}
+
+.attribution ul{
+    list-style-type: none; 
+}
+
+@media screen and (max-width: 768px) {
+    .main_component{
+        margin: auto;
+        padding: auto;
+        height: 300px;
+        width: 300px;
+    
+    }
+
+    .grid_main_menu-component-greens{
+        display: grid;
+        grid-template-columns: 100%
+    }
+
+    .attribution{
+        display: none;
+    }
+
+}
