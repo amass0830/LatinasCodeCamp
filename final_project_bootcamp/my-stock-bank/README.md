@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Stock Trading App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Esta es una aplicación de comercio de acciones que te permite comprar, vender y rastrear acciones de diferentes empresas. La aplicación también te permite ver el saldo de tu cuenta y realizar cambios en tu PIN de seguridad.
 
-## Available Scripts
+## Funcionalidades
 
-In the project directory, you can run:
+- **Iniciar Sesión:** La aplicación te permite iniciar sesión con tu nombre completo, nombre de usuario, PIN y contraseña.
 
-### `npm start`
+- **Cambiar PIN:** Puedes cambiar tu PIN de seguridad desde la aplicación.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Revisar Acciones:** Puedes ver las acciones que posees en tu cuenta, incluyendo el nombre de la empresa, el precio y la cantidad de acciones.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Comprar Acciones:** Tienes la opción de comprar más acciones de empresas disponibles en la aplicación.
 
-### `npm test`
+- **Vender Acciones:** También puedes vender acciones que tengas en tu cuenta.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Depositar Fondos:** La aplicación te permite depositar fondos en tu cuenta.
 
-### `npm run build`
+- **Generar Estado de Cuenta:** Puedes generar un estado de cuenta que muestra tu historial de transacciones y saldos anteriores.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Cerrar Sesión:** Puedes cerrar sesión en la aplicación.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Uso
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clona este repositorio en tu máquina local.
+2. Instala las dependencias con el comando `npm install`.
+3. Inicia la aplicación con el comando `npm start`.
+4. Abre tu navegador y navega a `http://localhost:3000` para utilizar la aplicación.
 
-### `npm run eject`
+## Tecnologías Utilizadas
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React: La aplicación está construida con React, una biblioteca de JavaScript para crear interfaces de usuario interactivas.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React Router Dom: Se utiliza React Router Dom para manejar la navegación entre diferentes páginas de la aplicación.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contribuciones
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Si deseas contribuir a este proyecto, ¡no dudes en hacerlo! Puedes abrir problemas (issues) o enviar solicitudes de extracción (pull requests) para sugerir mejoras o correcciones.
 
-## Learn More
+## Licencia
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Este proyecto está bajo la Licencia MIT. Puedes consultar el archivo [LICENSE](LICENSE) para obtener más detalles.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Espero que este README te ayude a documentar tu aplicación. No dudes en personalizarlo según las necesidades específicas de tu proyecto. ¡Buena suerte con tu aplicación de comercio de acciones!
