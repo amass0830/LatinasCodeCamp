@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import profilePic from './profile-amass.jpg';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>Hola, soy Andrea Lucia y estoy en TechnoLatinas</h1>
       </header>
+      <div className="profile-pic">
+        <img
+          src={profilePic}
+          alt="Mi Imagen de Perfil"
+          className="rounded-image"
+        />
+      </div>
+      <div className="links">
+        <a href="https://www.facebook.com/amass0830/" target="_blank" rel="noopener noreferrer">Mi Facebook</a>
+        <a href="https://twitter.com/amass0830" target="_blank" rel="noopener noreferrer">Mi Twitter</a>
+        <a href="https://www.instagram.com/tucuenta" target="_blank" rel="noopener noreferrer">Mi Instagram</a>
+        <a href="https://github.com/amass0830" target="_blank" rel="noopener noreferrer">Mi GitHub</a>
+      </div>
+
+      <h3>Somos Technolatinas!</h3>
+      <h6>Latinas Code Camp</h6>
+
+      <footer>
+        <p>Derechos de autor © {new Date().getFullYear()} Andrea Lucia</p>
+      </footer>
     </div>
   );
 }
