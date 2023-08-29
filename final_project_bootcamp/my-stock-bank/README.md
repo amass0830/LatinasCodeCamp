@@ -36,11 +36,3 @@ Esta es una aplicación de comercio de acciones que te permite comprar, vender y
 ## Contribuciones
 
 Si deseas contribuir a este proyecto, ¡no dudes en hacerlo! Puedes abrir problemas (issues) o enviar solicitudes de extracción (pull requests) para sugerir mejoras o correcciones.
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Puedes consultar el archivo [LICENSE](LICENSE) para obtener más detalles.
-
----
-
-Espero que este README te ayude a documentar tu aplicación. No dudes en personalizarlo según las necesidades específicas de tu proyecto. ¡Buena suerte con tu aplicación de comercio de acciones!
