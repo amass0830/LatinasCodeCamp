@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react';import './App.css';
 
 function SellStocks({ appleStocks, techStocks, cash, setCash, setAppleStock, setTechStock }) {
   const [selectedStock, setSelectedStock] = useState('apple'); // Inicialmente seleccionamos las acciones de Apple

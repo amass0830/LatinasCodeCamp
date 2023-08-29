@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Popup from '../components/Popup';
+import './App.css';
 
 const PinChange = (props) => {
     const [actualpin, setPin] = useState ("");

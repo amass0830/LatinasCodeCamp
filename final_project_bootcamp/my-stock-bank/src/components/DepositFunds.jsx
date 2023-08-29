@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './App.css';
 
 function DepositFunds({ cash, setCash }) {
   const [amount, setAmount] = useState(0);

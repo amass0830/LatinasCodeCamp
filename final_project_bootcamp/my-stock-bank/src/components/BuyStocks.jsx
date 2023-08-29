@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './App.css';
 
 function BuyStocks({ BookStocks, moneyStocks, cash, setCash, setBootStock, setTechStock }) {
   const [selectedStock, setSelectedStock] = useState(bookStocks);

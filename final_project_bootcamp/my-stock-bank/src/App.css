@@ -1,38 +1,92 @@
-.App {
+/* Estilos globales para el cuerpo de la página */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #0074e4, #00c5e4);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para el contenido central */
+.container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Estilos para el texto dentro del contenedor */
+h1 {
+  font-size: 36px;
+  color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  font-size: 18px;
+  color: #666;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Estilos para elementos de entrada redondeados */
+.rounded-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+/* Estilos globales para el cuerpo de la página */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #0074e4, #00c5e4);
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+/* Estilos para el contenido central */
+.container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Estilos para el texto dentro del contenedor */
+h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Estilos para elementos de entrada redondeados */
+
+
+input{
+   width: 100%;
+  padding: 10px;
+  border: 1px solid #8be8ff;
+  border-radius: 8px;
+  margin-bottom: 10px; 
+}
+
+button{
+  display: block;
+  margin: 0 auto;
+  width: 15em;
+  height: 50px ;
+  background-color: #12dcfb;
+  border: 1px solid #2c95b0;
+  border-radius: 8px;
+  margin-bottom: 10px; 
+  font-weight: 500;
 }
